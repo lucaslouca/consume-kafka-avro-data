@@ -1,0 +1,8 @@
+MACRO(print_all_variables)
+    MESSAGE(STATUS "print_all_variables------------------------------------------{")
+    get_cmake_property(_variableNames VARIABLES)
+    FOREACH (_variableName ${_variableNames})
+        MESSAGE(STATUS "${_variableName}=${${_variableName}}")
+    ENDFOREACH()
+    MESSAGE(STATUS "print_all_variables------------------------------------------}")
+ENDMACRO()

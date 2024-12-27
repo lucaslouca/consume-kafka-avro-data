@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "build",
+      "command": "./make-me",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/"
+      },
+      "problemMatcher": {
+        "base": "$gcc",
+        "fileLocation": ["relative", "${workspaceFolder}/src"]
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "make-me => Makefile => g++"
+    }
+  ]
+}

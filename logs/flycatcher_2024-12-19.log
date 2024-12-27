@@ -1,0 +1,16 @@
+2024/12/19 15:07:07.378407 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+
+2024/12/19 15:07:07.524866 [INFO] [KafkaPoller] Started
+
+2024/12/19 16:13:25.164565 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+
+2024/12/19 16:13:25.286832 [INFO] [KafkaPoller] Started
+
+2024/12/19 16:14:56.935429 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+
+2024/12/19 16:14:57.040914 [INFO] [KafkaPoller] Started
+
+2024/12/19 16:24:11.779243 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+
+2024/12/19 16:24:11.883579 [INFO] [KafkaPoller] Started
+

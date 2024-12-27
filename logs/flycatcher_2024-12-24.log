@@ -1,0 +1,24 @@
+2024/12/24 05:23:30.178252 [INFO] [main] Connecting to database...
+2024/12/24 05:23:30.791349 [INFO] [main] Connected to database
+2024/12/24 05:23:30.797277 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+2024/12/24 05:23:30.797286 [INFO] [SchemaRegistry] {
+    "type": "record",
+    "name": "spo_msg",
+    "fields": [
+        {
+            "name": "subject",
+            "type": "string"
+        },
+        {
+            "name": "predicate",
+            "type": "string"
+        },
+        {
+            "name": "object",
+            "type": "string"
+        }
+    ]
+}
+
+2024/12/24 05:23:30.893931 [INFO] [main] Created consumer spo2kafka_client#consumer-1
+2024/12/24 05:23:30.893950 [INFO] [main] Starting the consumer handle

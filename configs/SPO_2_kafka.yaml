@@ -1,0 +1,29 @@
+kafka:
+  bootstrap.servers: localhost:9092
+  schema.registry.url: http://localhost:8081
+  client.id: spo2kafka_client
+input_type: csv
+csv_options:
+  escape_hack: true
+
+# The Avro record field type for column if it should not be 'string'
+column_type_transforms:
+  Source: string
+  Relationship: string
+  Target: string
+
+# Beginning of actual schema definition
+type_map:
+  spo: # The Kafka topic we want to publish our messages
+    key_column: subject
+    columns: # Which CSV columns we want to include in the message (after mapping)
+      - Source
+      - Relationship
+      - Target
+
+  # In case some CSV column names differ from Avro record field names,
+# you can map them here
+column_map:
+  Source: subject
+  Relationship: predicate
+  Target: object
