@@ -1,0 +1,74 @@
+2024/12/28 08:41:07.327334 [INFO] [main] Connecting to database...
+2024/12/28 08:44:18.753963 [INFO] [main] Connecting to database...
+2024/12/28 08:51:15.236879 [INFO] [main] Connecting to database...
+2024/12/28 08:51:15.858352 [INFO] [main] Connected to database
+2024/12/28 08:51:15.985160 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+2024/12/28 08:51:15.985177 [INFO] [SchemaRegistry] {
+    "type": "record",
+    "name": "spo_msg",
+    "fields": [
+        {
+            "name": "subject",
+            "type": "string"
+        },
+        {
+            "name": "predicate",
+            "type": "string"
+        },
+        {
+            "name": "object",
+            "type": "string"
+        }
+    ]
+}
+
+2024/12/28 08:51:16.120008 [INFO] [main] Created consumer spo2kafka_client#consumer-1
+2024/12/28 08:51:16.120391 [INFO] [main] Starting the consumer handle
+2024/12/28 08:52:03.313038 [INFO] [main] Connecting to database...
+2024/12/28 08:52:03.924966 [INFO] [main] Connected to database
+2024/12/28 08:52:03.930318 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+2024/12/28 08:52:03.930328 [INFO] [SchemaRegistry] {
+    "type": "record",
+    "name": "spo_msg",
+    "fields": [
+        {
+            "name": "subject",
+            "type": "string"
+        },
+        {
+            "name": "predicate",
+            "type": "string"
+        },
+        {
+            "name": "object",
+            "type": "string"
+        }
+    ]
+}
+
+2024/12/28 08:52:04.035102 [INFO] [main] Created consumer spo2kafka_client#consumer-1
+2024/12/28 08:52:04.035121 [INFO] [main] Starting the consumer handle
+2024/12/28 08:53:16.749872 [INFO] [main] Connecting to database...
+2024/12/28 08:53:17.332671 [INFO] [main] Connected to database
+2024/12/28 08:53:17.337614 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+2024/12/28 08:53:17.337623 [INFO] [SchemaRegistry] {
+    "type": "record",
+    "name": "spo_msg",
+    "fields": [
+        {
+            "name": "subject",
+            "type": "string"
+        },
+        {
+            "name": "predicate",
+            "type": "string"
+        },
+        {
+            "name": "object",
+            "type": "string"
+        }
+    ]
+}
+
+2024/12/28 08:53:17.439987 [INFO] [main] Created consumer spo2kafka_client#consumer-1
+2024/12/28 08:53:17.440010 [INFO] [main] Starting the consumer handle
