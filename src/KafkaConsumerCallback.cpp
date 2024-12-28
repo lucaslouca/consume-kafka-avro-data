@@ -74,34 +74,40 @@ size_t KafkaConsumerCallback::deserialize(RdKafka::Message *message) {
     std::string out;
     avro::GenericDatum *d = NULL;
 
-    if (SchemaRegistry::instance().m_serdes->deserialize(&m_schema, &d, message->payload(), message->len(), errstr) ==
-            -1 ||
-        avro2json(m_schema, d, out, errstr) == -1) {
-        Logging::ERROR("Failed to deserialize: " + errstr, m_name);
+    ssize_t bytes_read =
+        SchemaRegistry::instance().m_serdes->deserialize(&m_schema, &d, message->payload(), message->len(), errstr);
+    if (bytes_read == -1) {
+        Logging::ERROR("Serdes::Avro::deserialize() failed to deserialize: " + errstr, m_name);
+    } else {
+        Logging::INFO("Serdes::Avro::deserialize() read : " + std::to_string(bytes_read) + " bytes", m_name);
+    }
+    if (avro2json(m_schema, d, out, errstr) == -1) {
+        Logging::ERROR("KafkaConsumerCallback::avro2json() failed to deserialize: " + errstr, m_name);
     }
     if (!out.empty()) {
-        web::json::value json_value = web::json::value::parse(out);
-        std::string subject = json_value["subject"].as_string();
-        std::string predicate = json_value["predicate"].as_string();
-        std::string object = json_value["object"].as_string();
+        std::cout << out << std::endl;
+        // web::json::value json_value = web::json::value::parse(out);
+        // std::string subject = json_value["subject"].as_string();
+        // std::string predicate = json_value["predicate"].as_string();
+        // std::string object = json_value["object"].as_string();
 
-        auto t = std::time(nullptr);
-        auto tm = *std::localtime(&t);
+        // auto t = std::time(nullptr);
+        // auto tm = *std::localtime(&t);
 
-        std::ostringstream oss;
-        oss << std::put_time(&tm, "%Y-%m-%d %H:%M:%S");
-        std::string created_at = oss.str();
+        // std::ostringstream oss;
+        // oss << std::put_time(&tm, "%Y-%m-%d %H:%M:%S");
+        // std::string created_at = oss.str();
 
-        if (Database::instance().insert_object(subject, "MyObjectType", created_at) &&
-            Database::instance().insert_object(object, "MyObjectType", created_at)) {
-            int source_id = Database::instance().get_object_id(subject);
-            int target_id = Database::instance().get_object_id(object);
-            if (!Database::instance().insert_relationship(source_id, target_id, predicate)) {
-                Logging::ERROR("Could not persist predicate", m_name);
-            }
-        } else {
-            Logging::ERROR("Could not persist either subject or object", m_name);
-        }
+        // if (Database::instance().insert_object(subject, "MyObjectType", created_at) &&
+        //     Database::instance().insert_object(object, "MyObjectType", created_at)) {
+        //     int source_id = Database::instance().get_object_id(subject);
+        //     int target_id = Database::instance().get_object_id(object);
+        //     if (!Database::instance().insert_relationship(source_id, target_id, predicate)) {
+        //         Logging::ERROR("Could not persist predicate", m_name);
+        //     }
+        // } else {
+        //     Logging::ERROR("Could not persist either subject or object", m_name);
+        // }
     }
 
     delete d;

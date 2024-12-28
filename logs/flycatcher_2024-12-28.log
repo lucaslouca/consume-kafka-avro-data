@@ -144,3 +144,270 @@
 
 2024/12/28 15:49:11.477575 [INFO] [main] Created consumer spo2kafka_client#consumer-1
 2024/12/28 15:49:11.477594 [INFO] [main] Starting the consumer handle
+2024/12/28 15:49:45.654072 [INFO] [main] Connecting to database...
+2024/12/28 15:49:46.383608 [INFO] [main] Connected to database
+2024/12/28 15:49:46.390565 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+2024/12/28 15:49:46.390572 [INFO] [SchemaRegistry] {
+    "type": "record",
+    "name": "spo_msg",
+    "fields": [
+        {
+            "name": "subject",
+            "type": "string"
+        },
+        {
+            "name": "predicate",
+            "type": "string"
+        },
+        {
+            "name": "object",
+            "type": "string"
+        }
+    ]
+}
+
+2024/12/28 15:49:46.489483 [INFO] [main] Created consumer spo2kafka_client#consumer-1
+2024/12/28 15:49:46.489509 [INFO] [main] Starting the consumer handle
+2024/12/28 15:52:46.534616 [INFO] [main] Connecting to database...
+2024/12/28 15:52:47.102416 [INFO] [main] Connected to database
+2024/12/28 15:52:47.108188 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+2024/12/28 15:52:47.108197 [INFO] [SchemaRegistry] {
+    "type": "record",
+    "name": "spo_msg",
+    "fields": [
+        {
+            "name": "subject",
+            "type": "string"
+        },
+        {
+            "name": "predicate",
+            "type": "string"
+        },
+        {
+            "name": "object",
+            "type": "string"
+        }
+    ]
+}
+
+2024/12/28 15:52:47.204510 [INFO] [main] Created consumer spo2kafka_client#consumer-1
+2024/12/28 15:52:47.204528 [INFO] [main] Starting the consumer handle
+2024/12/28 15:57:18.519304 [INFO] [main] Connecting to database...
+2024/12/28 15:57:19.078207 [INFO] [main] Connected to database
+2024/12/28 15:57:19.082839 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+2024/12/28 15:57:19.082848 [INFO] [SchemaRegistry] {
+    "type": "record",
+    "name": "spo_msg",
+    "fields": [
+        {
+            "name": "subject",
+            "type": "string"
+        },
+        {
+            "name": "predicate",
+            "type": "string"
+        },
+        {
+            "name": "object",
+            "type": "string"
+        }
+    ]
+}
+
+2024/12/28 15:57:19.179451 [INFO] [main] Created consumer spo2kafka_client#consumer-1
+2024/12/28 15:57:19.179468 [INFO] [main] Starting the consumer handle
+2024/12/28 15:58:59.623424 [INFO] [main] Connecting to database...
+2024/12/28 15:59:00.204113 [INFO] [main] Connected to database
+2024/12/28 15:59:00.213173 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+2024/12/28 15:59:00.213182 [INFO] [SchemaRegistry] {
+    "type": "record",
+    "name": "spo_msg",
+    "fields": [
+        {
+            "name": "subject",
+            "type": "string"
+        },
+        {
+            "name": "predicate",
+            "type": "string"
+        },
+        {
+            "name": "object",
+            "type": "string"
+        }
+    ]
+}
+
+2024/12/28 15:59:00.308957 [INFO] [main] Created consumer spo2kafka_client#consumer-1
+2024/12/28 15:59:00.308977 [INFO] [main] Starting the consumer handle
+2024/12/28 15:59:00.825733 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826069 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826101 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826129 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826156 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826184 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826210 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826240 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826266 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826295 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826321 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826350 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826379 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826405 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826432 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826458 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826483 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826508 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826536 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826564 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826589 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826617 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826643 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826667 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826695 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826732 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826757 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826782 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826807 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826832 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826857 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826881 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826907 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826931 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.826956 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827017 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827072 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827102 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827131 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827157 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827185 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827213 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827238 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827264 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827289 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827313 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827338 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827362 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827387 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827411 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827435 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827460 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827508 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827535 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827560 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827585 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827609 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827634 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827659 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827684 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:00.827709 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
+2024/12/28 15:59:36.537290 [INFO] [main] Connecting to database...
+2024/12/28 15:59:37.094841 [INFO] [main] Connected to database
+2024/12/28 15:59:37.099091 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+2024/12/28 15:59:37.099100 [INFO] [SchemaRegistry] {
+    "type": "record",
+    "name": "spo_msg",
+    "fields": [
+        {
+            "name": "subject",
+            "type": "string"
+        },
+        {
+            "name": "predicate",
+            "type": "string"
+        },
+        {
+            "name": "object",
+            "type": "string"
+        }
+    ]
+}
+
+2024/12/28 15:59:37.197300 [INFO] [main] Created consumer spo2kafka_client#consumer-1
+2024/12/28 15:59:37.197318 [INFO] [main] Starting the consumer handle
+2024/12/28 15:59:37.704329 [ERROR] [main] Number of failed deserializations: 1
+2024/12/28 15:59:37.704428 [ERROR] [main] Number of failed deserializations: 2
+2024/12/28 15:59:37.704451 [ERROR] [main] Number of failed deserializations: 3
+2024/12/28 15:59:37.704472 [ERROR] [main] Number of failed deserializations: 4
+2024/12/28 15:59:37.704493 [ERROR] [main] Number of failed deserializations: 5
+2024/12/28 15:59:37.704515 [ERROR] [main] Number of failed deserializations: 6
+2024/12/28 15:59:37.704536 [ERROR] [main] Number of failed deserializations: 7
+2024/12/28 15:59:37.704555 [ERROR] [main] Number of failed deserializations: 8
+2024/12/28 15:59:37.704575 [ERROR] [main] Number of failed deserializations: 9
+2024/12/28 15:59:37.704595 [ERROR] [main] Number of failed deserializations: 10
+2024/12/28 15:59:37.704614 [ERROR] [main] Number of failed deserializations: 11
+2024/12/28 15:59:37.704634 [ERROR] [main] Number of failed deserializations: 12
+2024/12/28 15:59:37.704653 [ERROR] [main] Number of failed deserializations: 13
+2024/12/28 15:59:37.704672 [ERROR] [main] Number of failed deserializations: 14
+2024/12/28 15:59:37.704691 [ERROR] [main] Number of failed deserializations: 15
+2024/12/28 15:59:37.704710 [ERROR] [main] Number of failed deserializations: 16
+2024/12/28 15:59:37.704730 [ERROR] [main] Number of failed deserializations: 17
+2024/12/28 15:59:37.704749 [ERROR] [main] Number of failed deserializations: 18
+2024/12/28 15:59:37.704767 [ERROR] [main] Number of failed deserializations: 19
+2024/12/28 15:59:37.704786 [ERROR] [main] Number of failed deserializations: 20
+2024/12/28 15:59:37.704805 [ERROR] [main] Number of failed deserializations: 21
+2024/12/28 15:59:37.704823 [ERROR] [main] Number of failed deserializations: 22
+2024/12/28 15:59:37.704841 [ERROR] [main] Number of failed deserializations: 23
+2024/12/28 15:59:37.704859 [ERROR] [main] Number of failed deserializations: 24
+2024/12/28 15:59:37.704878 [ERROR] [main] Number of failed deserializations: 25
+2024/12/28 15:59:37.704895 [ERROR] [main] Number of failed deserializations: 26
+2024/12/28 15:59:37.704914 [ERROR] [main] Number of failed deserializations: 27
+2024/12/28 15:59:37.704945 [ERROR] [main] Number of failed deserializations: 28
+2024/12/28 15:59:37.704964 [ERROR] [main] Number of failed deserializations: 29
+2024/12/28 15:59:37.704982 [ERROR] [main] Number of failed deserializations: 30
+2024/12/28 15:59:37.705000 [ERROR] [main] Number of failed deserializations: 31
+2024/12/28 15:59:37.705017 [ERROR] [main] Number of failed deserializations: 32
+2024/12/28 15:59:37.705036 [ERROR] [main] Number of failed deserializations: 33
+2024/12/28 15:59:37.705054 [ERROR] [main] Number of failed deserializations: 34
+2024/12/28 15:59:37.705073 [ERROR] [main] Number of failed deserializations: 35
+2024/12/28 15:59:37.705091 [ERROR] [main] Number of failed deserializations: 36
+2024/12/28 15:59:37.705108 [ERROR] [main] Number of failed deserializations: 37
+2024/12/28 15:59:37.705127 [ERROR] [main] Number of failed deserializations: 38
+2024/12/28 15:59:37.705145 [ERROR] [main] Number of failed deserializations: 39
+2024/12/28 15:59:37.705163 [ERROR] [main] Number of failed deserializations: 40
+2024/12/28 15:59:37.705181 [ERROR] [main] Number of failed deserializations: 41
+2024/12/28 15:59:37.705198 [ERROR] [main] Number of failed deserializations: 42
+2024/12/28 15:59:37.705217 [ERROR] [main] Number of failed deserializations: 43
+2024/12/28 15:59:37.705236 [ERROR] [main] Number of failed deserializations: 44
+2024/12/28 15:59:37.705253 [ERROR] [main] Number of failed deserializations: 45
+2024/12/28 15:59:37.705271 [ERROR] [main] Number of failed deserializations: 46
+2024/12/28 15:59:37.705289 [ERROR] [main] Number of failed deserializations: 47
+2024/12/28 15:59:37.705307 [ERROR] [main] Number of failed deserializations: 48
+2024/12/28 15:59:37.705325 [ERROR] [main] Number of failed deserializations: 49
+2024/12/28 15:59:37.705342 [ERROR] [main] Number of failed deserializations: 50
+2024/12/28 15:59:37.705360 [ERROR] [main] Number of failed deserializations: 51
+2024/12/28 15:59:37.705446 [ERROR] [main] Number of failed deserializations: 52
+2024/12/28 15:59:37.705467 [ERROR] [main] Number of failed deserializations: 53
+2024/12/28 15:59:37.705486 [ERROR] [main] Number of failed deserializations: 54
+2024/12/28 15:59:37.705504 [ERROR] [main] Number of failed deserializations: 55
+2024/12/28 15:59:37.705522 [ERROR] [main] Number of failed deserializations: 56
+2024/12/28 15:59:37.705540 [ERROR] [main] Number of failed deserializations: 57
+2024/12/28 15:59:37.705558 [ERROR] [main] Number of failed deserializations: 58
+2024/12/28 15:59:37.705576 [ERROR] [main] Number of failed deserializations: 59
+2024/12/28 15:59:37.705595 [ERROR] [main] Number of failed deserializations: 60
+2024/12/28 15:59:37.705613 [ERROR] [main] Number of failed deserializations: 61
+2024/12/28 16:00:40.998342 [INFO] [main] Connecting to database...
+2024/12/28 16:00:41.562982 [INFO] [main] Connected to database
+2024/12/28 16:00:41.570508 [INFO] [SchemaRegistry] Fetched schema: 'spo-value', id: 2
+2024/12/28 16:00:41.570517 [INFO] [SchemaRegistry] {
+    "type": "record",
+    "name": "spo_msg",
+    "fields": [
+        {
+            "name": "subject",
+            "type": "string"
+        },
+        {
+            "name": "predicate",
+            "type": "string"
+        },
+        {
+            "name": "object",
+            "type": "string"
+        }
+    ]
+}
+
+2024/12/28 16:00:41.665120 [INFO] [main] Created consumer spo2kafka_client#consumer-1
+2024/12/28 16:00:41.665141 [INFO] [main] Starting the consumer handle
+2024/12/28 16:00:42.183946 [INFO] [KafkaConsumerCallback] Serdes::Avro::deserialize() read : 0 bytes
