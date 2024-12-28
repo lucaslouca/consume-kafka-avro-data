@@ -134,7 +134,8 @@
     "print": "cpp",
     "text_encoding": "cpp",
     "connection": "cpp",
-    "pqxx": "cpp"
+    "pqxx": "cpp",
+    "numbers": "cpp"
   },
   "python.formatting.provider": "none"
 }
